@@ -1,8 +1,10 @@
+from dotenv import load_dotenv
 import openai as gpt
 import speech_recognition as sr
 import pyttsx3 as tsx
+import os
 
-gpt_key = gpt.api_key = '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'
+gpt_key = gpt.api_key = os.getenv("API_KEY")
 jarvis = tsx.init()
 audio = sr.Recognizer()
 
