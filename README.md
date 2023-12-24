@@ -1,7 +1,7 @@
 # Projeto de Recriação da Alexa em Python
 
 ## Descrição
-Este é um projeto de recriação da funcionalidade da Alexa utilizando Python, pyttsx3 e SpeechRecognition. O objetivo é criar um assistente de voz simples que possa receber comandos de voz do usuário e executar tarefas específicas.
+Este projeto têm como objetivo, recriar as funcionalidades da Alexa e integrá-lo usando a API do ChatGPT, as libs são pyttsx3 e SpeechRecognition.
 
 ## Funcionalidades
 - **Reconhecimento de Voz:** Utiliza a biblioteca SpeechRecognition para reconhecer comandos de voz.
